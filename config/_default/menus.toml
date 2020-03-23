@@ -6,27 +6,13 @@
 [[main]]
   name = "Home"
   url = "#about"
-  weight = 10
+  weight = 1
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
-  weight = 20
+  name = "About Brice"  # Title of the link.
+  url = "aboutbrice/"  # Widget Page folder name.
+  weight = 2  # Position of the link in the navigation bar.
 
-[[main]]
-  name = "Projects"
-  url = "#projects"
-  weight = 30
-
-[[main]]
-  name = "Publications"
-  url = "#featured"
-  weight = 40
-
-[[main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 60
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
