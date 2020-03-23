@@ -1,0 +1,18 @@
+# Theme metadata
+name = "Blue"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "#daa520" #PRIMARY
+
+# Menu
+menu_primary = "rgb(255, 255, 255)"
+menu_text = "rgb(103, 103, 103)" #same as 2nd text
+menu_text_active = "#daa520" #PRIMARY
+menu_title = "rgb(52, 52, 52)" #same as main text
+
+# Home sections
+home_section_odd = "#rgb(255, 255, 255)"
+home_section_even = "rgb(247, 247, 247)"
