@@ -185,6 +185,13 @@ a.hero-cta-alt {
   font-size: 1.1rem;
 }
 
+/* add btn that adds outline in primary color and rounded edges */
+.myebtn {
+  padding: .6em 2.1em;
+  border-radius: 25px;
+  border: 2px solid $sta-primary;
+}
+
 a.hero-cta-alt:active,
 a.hero-cta-alt:focus,
 a.hero-cta-alt:hover {
