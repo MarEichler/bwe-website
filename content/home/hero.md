@@ -23,7 +23,7 @@ title = ""
   
   # Background image.
  image = "Leaf.jpg"  # Name of image in `static/img/`.
- image_darken = 0.2  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+ image_darken = 0.3  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
 image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
 image_position = "center"  # Options include `left`, `center` (default), or `right`.
 image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
@@ -43,8 +43,9 @@ style="
    text-shadow: 1px 1px 4px rgba(0,0,0,.7);
 ">
 <center> 
-<h1>  Practice of Presence </h1>
-<i> spiritual formation </i> 
+<h2> Brice Eichlersmith, M.Div.  </h2> 
+<h1>  Practicing the Presence </h1> 
+<h2> <i> spiritual formation </i>  </h2> 
 </center> 
 </div> 
 
