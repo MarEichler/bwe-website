@@ -43,9 +43,10 @@ style="
    text-shadow: 1px 1px 4px rgba(0,0,0,.7);
 ">
 <center> 
-<h2> Brice Eichlersmith, M.Div.  </h2> 
+<!-- <h2> Brice Eichlersmith, M.Div.  </h2> --> 
+<br> 
 <h1>  Practicing the Presence </h1> 
-<h2> <i> spiritual formation </i>  </h2> 
+<h2> <i> Spiritual Direction </i>  </h2> 
 </center> 
 </div> 
 
