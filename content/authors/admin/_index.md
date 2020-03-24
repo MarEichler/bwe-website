@@ -10,17 +10,17 @@ authors:
 superuser: true
 
 # Role/position
-role: "Youth and Family Pastor"
+role: Youth and Family Pastor
 
 # Organizations/Affiliations
 organizations:
-- name: "Oakgrove Lutheran Church"
+- name: Oakgrove Lutheran Church
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
 
 
-x:
+interests:
 - Artificial Intelligence
 - Computational Linguistics
 - Information Retrieval
@@ -60,8 +60,4 @@ user_groups:
 - Visitors
 ---
 
-I have truly enjoyed my career as a Pastor and my favorite part is being able to connect with people.  My experience has given me the opportunity to talk about faith and spirituality many different kinds of people.  
 
-
-<h3> Calling </h3> 
-In love, God became human in Jesus Christ, met us in the world we live in, and took up a cross to know and claim us fully.  Inspired by this gift, I am called to know that loving God, and to enter into Christ-centered relationships with others so that they may also come to know God and embrace God’s abundant grace. 
