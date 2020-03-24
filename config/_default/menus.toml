@@ -3,10 +3,12 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
+
 [[main]]
-  name = "Home"
-  url = "#about"
-  weight = 1
+  name = "Spiritual Direction"  # Title of the link.
+  url = "spiritualdirection/"  # Widget Page folder name.
+  weight = 1  # Position of the link in the navigation bar.
+
 
 [[main]]
   name = "About Brice"  # Title of the link.
@@ -14,9 +16,4 @@
   weight = 2  # Position of the link in the navigation bar.
 
 
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# [[main]]
-#    name = "CV"
-#    url = "files/cv.pdf"
-#    weight = 70
+
