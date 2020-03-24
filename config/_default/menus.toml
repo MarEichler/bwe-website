@@ -15,5 +15,8 @@
   url = "aboutbrice/"  # Widget Page folder name.
   weight = 2  # Position of the link in the navigation bar.
 
-
+[[main]]
+  name = "Contact"  # Title of the link.
+  url = "contact/"  # Widget Page folder name.
+  weight = 3  # Position of the link in the navigation bar.
 
