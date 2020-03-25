@@ -19,7 +19,7 @@ title = ""
   <div class="col-12 col-sm-5" >
 <!-- left button --> 
 <a href="spiritualdirection/"  class="hero-cta-alt myebtn" style="width:100%;"> 
-<b> Practicing the Present </b> <br>
+<b> Practicing the Presence </b> <br>
   Spiritual Direction </a>
 <!-- end left button --> 
   </div>

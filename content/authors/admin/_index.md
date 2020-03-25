@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Practicing the Present
+role: Practicing the Presence
 
 # Organizations/Affiliations
 organizations:
