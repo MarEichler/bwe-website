@@ -100,7 +100,7 @@ p.desc {
     <h3>Other Community Involvement</h3>
       <ul>
         <li>
-        <p class="title"> First Responsders for First Responders Grant</p>
+        <p class="title"> First Responders for First Responders Grant</p>
         <p class="org">Grant Organization</p>
         <p class="year"> Year </p>
         <p class="desc"> Grant to work with families of firefighters and police officers in Richfield, MN. 
