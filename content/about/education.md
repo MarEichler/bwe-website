@@ -42,7 +42,7 @@ p.year {
 <p class="year"> 1984 </p> 
 
 <p class="deg"> Master's Course Work, Classics and Education </p>
-<p class="school"> University of Minneasota - Twin Cities </p> 
+<p class="school"> University of Minnesota - Twin Cities </p> 
 <p class="year"> 1978-1980 </p> 
 
 <p class="deg"> Master's Course Work, Classics </p>
@@ -50,14 +50,14 @@ p.year {
 <p class="year"> 1976-1977 </p> 
 
 <p class="deg"> Bachelor of Arts, Classics </p>
-<p class="school"> University of Minneasota - Twin Cities</p> 
+<p class="school"> University of Minnesota - Twin Cities</p> 
 <p class="year"> 1976-1977 </p> 
 
 <h2> Continuing Education </h2>  
 
-<p class="deg"> Minnesota Intititue for Contemplation and Healing (MICAH) </p>  
+<p class="deg"> Minnesota Institute for Contemplation and Healing (MICAH) </p>  
 <p class="year"> 2004-2006 </p> 
-with Dr. Dan Wolpert, D.Min: spriritual direction training
+with Dr. Dan Wolpert, D.Min: spiritual direction training
 
 <p class="deg">  Family Therapy Training </p>  
 <p class="year"> 2001-2002 </p> 
