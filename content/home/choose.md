@@ -15,36 +15,27 @@ title = ""
 
 <br><br><br> 
 
+<div class="row featurette">
+  <div class="col-12 col-sm-5" >
 <!-- left button --> 
-<div 
-style="
-      width:50%; 
-      float:left; 
-      text-align:center
-">
+<a href="spiritualdirection/"  class="hero-cta-alt myebtn" style="width:100%;"> 
+<b> Practicing the Present </b> <br>
+  Spiritual Direction </a>
+<!-- end left button --> 
+  </div>
 
-  <a href="spiritualdirection/"  class="hero-cta-alt myebtn" style="min-width:70%;"> 
-  <b> Practicing the Present </b> <br>
-  spiritual direction 
-  </a>
-  
-</div> <!-- end left button --> 
-
-
-<!-- right button --> 
-<div 
-style="
-      width:50%; 
-      float:right; 
-      text-align:center
-">
-
-  <a href="aboutbrice/"  class="hero-cta-alt myebtn"   style="min-width:70%;"> 
- <b> Brice Eichlersmith </b> <br>
- About
-  </a>
-  
-</div> <!-- end right button --> 
+  <div class="col-12 col-sm-2">
+<br> 
+  </div>
+ 
+  <div class="col-12 col-sm-5" >
+  <!-- right button --> 
+<a href="aboutbrice/"  class="hero-cta-alt myebtn" style="width:100%;"> 
+<b> Brice Eichlersmith </b> <br>
+About
+</a> <!-- end right button --> 
+  </div>
+</div>
 
 <br><br><br>
 
