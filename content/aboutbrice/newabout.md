@@ -29,52 +29,144 @@ I have truly enjoyed my career as a Pastor and my favorite part is being able to
 In love, God became human in Jesus Christ, met us in the world we live in, and took up a cross to know and claim us fully.  Inspired by this gift, I am called to know that loving God, and to enter into Christ-centered relationships with others so that they may also come to know God and embrace God’s abundant grace. 
 </p>
 
+<style>
+p.title {
+  font-size: 1rem; 
+  margin: 15px 0px 0px 0px; 
+}
+p.org {
+  font-size: .8rem;
+  color: rgba(0,0,0,0.6);
+  margin:0px; 
+}
+p.year {
+  font-size: .7rem;
+  color: rgba(0,0,0,0.6);
+  margin:0px; 
+}
 
+p.desc {
+  font-size: .8rem;
+  margin: 1px 0px 0px 0px; 
+}
+</style>
 
 <div class="row">
-  <div class="col-md-7">
+  <div class="col-md-5">
     <h3>Current Roles </h3>
-      <ul class="ul-edu fa-ul">
+      <ul >
         <li>
-        <i class="fa-li fas fa-church"></i>
-        <div class="description">
-        <p class="course">Youth and Family Pastor</p>
-        <p class="institution">Oak Grove Lutheran Church, Richfield, MN</p>
-        </div>
+        <p class="title">Youth and Family Pastor</p>
+        <p class="org">Oak Grove Lutheran Church</p>
         </li>
         <li>
-        <i class="fa-li fas fa-hand-holding-heart"></i>
-        <div class="description">
-        <p class="course">Police and Fire Chaplin</p>
-        <p class="institution">Richfield, MN</p>
-        </div>
+        <p class="title">Police and Fire Chaplain</p>
+        <p class="org">City of Richfield, MN</p>
+        </li>
+         <li>
+        <p class="title">Camp Director</p>
+        <p class="org">MEA Getaway</p>
         </li>
         <li>
-        <i class="fa-li fas fa-campground"></i>
-        <div class="description">
-        <p class="course">Camp Director </p>
-        <p class="institution">MEA Getaway </p>
-        </div>
+        <p class="title">Co-Director</p>
+        <p class="org">Moonlight Madness</p>
+        </li>
+      </ul>
+  <h3>More about Brice </h3>
+      <ul>
+        <li>
+        <p class="title">
+        <a href="/about/current-roles"> Description of Current Roles </a>
+        </p>
+        </li>
+        <li> 
+        <p class="title">
+        <a href="/about/education"> Education </a>
+        </p>
         </li>
         <li>
-        <i class="fa-li fas fa-moon"></i>
-        <div class="description">
-        <p class="course">Co-Director </p>
-        <p class="institution">Moonlight Madness </p>
-        </div>
+        <p class="title">
+        <a href="/about/past-experience">  Past Experience </a>
+        </p>
         </li>
       </ul>
   </div>
-
-
-  <div class="col-md-5">
-    <h3> <a href="/about/education"> <i class="fas fa-graduation-cap"></i> Education </a> </h3> 
+  
+  <div class="col-md-7">
+    <h3>Other Community Involvement</h3>
+      <ul>
+        <li>
+        <p class="title"> First Responsders for First Responders Grant</p>
+        <p class="org">Grant Organization</p>
+        <p class="year"> Year </p>
+        <p class="desc"> Grant to work with families of firefighters and police officers in Richfield, MN. 
+        </p> 
+        </li>
+         <li>
+        <p class="title">That's Rich(field) Podcast (Episode XXXIV)</p>
+        <p class="org">That's Rich(field) Podcast</p>
+        <p class="year">August 2019 </p>
+        <p class="desc">
+          <a href="https://open.spotify.com/episode/0uYt9Obo6nW29YaPSVLixN" target="_blank">
+          <i class="fab fa-spotify"></i> Spotify </a>
+          &nbsp; 
+          <a href="https://podcasts.apple.com/us/podcast/thats-rich-field-podcast-episode-xxxiv/id1444897019?i=1000447443145" target="_blank"><i class="fas fa-podcast"></i> Apple Podcasts </a>
+          &nbsp; 
+          <a href="https://richfieldpodcast.libsyn.com/thats-richfield-podcast-episode-xxxiv" target="_blank"><i class="fas fa-rss"></i> Webpage </a>
+        </p> 
+        </li>
+        <li>
+        <p class="title">Gene and Mary Jacobsen Outstanding Citizen Award</p>
+        <p class="org">City of Richfield, MN</p>
+        <p class="year"> August 2019 </p>
+        <p class="desc"> 
+          <a href="https://www.richfieldmn.gov/Home/Components/News/News/3618/" target="_blank">
+          <i class="far fa-file-alt"></i> Richfield News Article </a> 
+        </p>
+        </li>
+        <li>
+        <p class="title">Neighborhood Champion</p>
+        <p class="org">City of Richfield, MN</p>
+        <p class="year"> December 2012 </p> 
+        </li>
+      </ul>
   </div>
+</div>
 
+<br> 
+
+<style>
+p.double {
+  line-height:2; 
+}
+</style>
+
+<div 
+style="
+      text-align:center;
+      align:center; 
+">
+<p class="double">
+<h3> how I describe myself </h3> 
+Authentic &nbsp;&nbsp;&nbsp;&nbsp;
+Creates a Safe Place for God Conversation &nbsp;&nbsp;&nbsp;&nbsp;
+Embeds Self in the Fabric of Lives in a Community &nbsp;&nbsp;&nbsp;&nbsp;
+Team Member &nbsp;&nbsp;&nbsp;&nbsp;
+Dynamic Preacher and Teacher &nbsp;&nbsp;&nbsp;&nbsp;
+Expertise in Entering Crises &nbsp;&nbsp;&nbsp;&nbsp;
+Spiritual Director &nbsp;&nbsp;&nbsp;&nbsp;
+Curious &nbsp;&nbsp;&nbsp;&nbsp;
+Willing to Live Outside Comfort Zone &nbsp;&nbsp;&nbsp;&nbsp;
+Expressive 
+<p> 
 </div>
 
 
+<!--
+ 
+          
 
+-->
 
 
 
