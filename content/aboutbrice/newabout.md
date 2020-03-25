@@ -139,18 +139,13 @@ p.desc {
 
 <br> 
 
-<style>
-p.double {
-  line-height:2; 
-}
-</style>
 
 <div 
 style="
       text-align:center;
-      align:center; 
+      align:center;
+      line-height:2.5;
 ">
-<p class="double">
 <h3> how I describe myself </h3> 
 Authentic &nbsp;&nbsp;&nbsp;&nbsp;
 Creates a Safe Place for God Conversation &nbsp;&nbsp;&nbsp;&nbsp;
@@ -162,15 +157,15 @@ Spiritual Director &nbsp;&nbsp;&nbsp;&nbsp;
 Curious &nbsp;&nbsp;&nbsp;&nbsp;
 Willing to Live Outside Comfort Zone &nbsp;&nbsp;&nbsp;&nbsp;
 Expressive 
-<p> 
+
 </div>
 
 
-<!--
- 
-          
-
--->
-
-
-
+<br>
+<br>
+<br> 
+<center>
+  <a href="/contact/"  class="hero-cta-alt myebtn"   style="min-width:50%;"> 
+ <b> Contact Brice </b> 
+  </a>
+</center>
