@@ -68,7 +68,7 @@ In love, God became human in Jesus Christ, met us in the world we live in, and t
 
 
   <div class="col-md-5">
-    <h3>Education</h3>
+    <h3> <a href="/about/education"> <i class="fas fa-graduation-cap"></i> Education </a> </h3> 
   </div>
 
 </div>
