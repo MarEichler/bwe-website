@@ -17,7 +17,7 @@ image:
 projects: []
 ---
 
-<html> 
+
 <style>
 p.title {
   font-weight:bold; 
@@ -35,7 +35,7 @@ p.year {
   margin: 0px 0px 5px 0px; 
 }
 </style>
-<body> 
+
 
 <p class="title"> Youth and Family Pastor </p>
 <p class="org"> Oak Grove Lutheran Church, Richfield, Minnesota </p> 
@@ -66,7 +66,6 @@ Created, developed, implemented and now organize and manage this national calibe
 Initiated, developed, implemented and now organize and manage two, multi-church all night lockouts per year for middle school age youth.  Approximately 25 area Lutheran churches and approximately 450 urban and suburban youth participate in each outreach event.  
 
 
-</body> 
-</html>
+
 
 
