@@ -108,11 +108,11 @@ p.desc {
         <p class="year">August 2019 </p>
         <p class="desc">
           <a href="https://open.spotify.com/episode/0uYt9Obo6nW29YaPSVLixN" target="_blank">
-          <i class="fab fa-spotify"></i> Spotify </a>
+          <i class="fab fa-spotify"></i>&thinsp;Spotify </a>
           &nbsp; 
-          <a href="https://podcasts.apple.com/us/podcast/thats-rich-field-podcast-episode-xxxiv/id1444897019?i=1000447443145" target="_blank"><i class="fas fa-podcast"></i> Apple Podcasts </a>
+          <a href="https://podcasts.apple.com/us/podcast/thats-rich-field-podcast-episode-xxxiv/id1444897019?i=1000447443145" target="_blank"><i class="fas fa-podcast"></i>&thinsp;Apple Podcasts </a>
           &nbsp; 
-          <a href="https://richfieldpodcast.libsyn.com/thats-richfield-podcast-episode-xxxiv" target="_blank"><i class="fas fa-rss"></i> Webpage </a>
+          <a href="https://richfieldpodcast.libsyn.com/thats-richfield-podcast-episode-xxxiv" target="_blank"><i class="fas fa-rss"></i>&thinsp;Webpage </a>
         </p> 
         </li>
         <li>
@@ -121,7 +121,7 @@ p.desc {
         <p class="year"> August 2019 </p>
         <p class="desc"> 
           <a href="https://www.richfieldmn.gov/Home/Components/News/News/3618/" target="_blank">
-          <i class="far fa-file-alt"></i> Richfield News Article </a> 
+          <i class="far fa-file-alt"></i>&thinsp;Richfield News Article </a> 
         </p>
         </li>
         <li>
