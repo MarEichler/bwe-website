@@ -22,7 +22,7 @@ subtitle=""
       <li>
         <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
         <span id="person-email">
-        <a href="mailto:eichlersmith@mac.com"> eichlersmith@mgac.com</a>
+        <a href="mailto:eichlersmith@mac.com"> eichlersmith@mac.com</a>
         </span>
       </li>
        <li>
