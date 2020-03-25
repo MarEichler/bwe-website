@@ -58,18 +58,22 @@ p.desc {
         <li>
         <p class="title">Youth and Family Pastor</p>
         <p class="org">Oak Grove Lutheran Church</p>
+        <p class="year"> Since 1994 </p>
         </li>
         <li>
         <p class="title">Police and Fire Chaplain</p>
         <p class="org">City of Richfield, MN</p>
+        <p class="year"> Since 2003 </p>
         </li>
          <li>
         <p class="title">Camp Director</p>
         <p class="org">MEA Getaway</p>
+        <p class="year"> Since 1990 </p>
         </li>
         <li>
         <p class="title">Co-Director</p>
         <p class="org">Moonlight Madness</p>
+        <p class="year"> Since 1987 </p>
         </li>
       </ul>
   <h3>More about Brice </h3>
