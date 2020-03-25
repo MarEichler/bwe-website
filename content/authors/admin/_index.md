@@ -10,31 +10,17 @@ authors:
 superuser: true
 
 # Role/position
-role: Youth and Family Pastor
+role: Practicing the Present
 
 # Organizations/Affiliations
 organizations:
-- name: Oakgrove Lutheran Church
+- name: 
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
+bio: ""
 
 
-interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-
-education:
-  courses:
-  - course: Master of Divinity
-    institution: Luther Northwestern Theological Seminary
-  - course: M.S. Course Work, Classics and Education (2 yrs)
-    institution: University of Minnesota - Twin Cities 
-  - course: M.S. Course Work, Classics, (1 yr)
-    institution: University of Wisconsin - Madison
-  - course: B.A., Classics 
-    institution: University of Minnesota - Twin Cities 
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -56,8 +42,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
-- Visitors
+
 ---
 
 
