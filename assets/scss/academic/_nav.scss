@@ -130,6 +130,10 @@
 
 #navbar-main .main-menu-item ul li .nav-link {
   color: $sta-menu-text;
+      &:hover {
+        font-weight: bold ;
+        color: $sta-menu-text-active;
+      }
 }
 
 @include media-breakpoint-down(md) {
@@ -194,9 +198,19 @@ ul.nav-icons li.nav-item a.nav-link {
   background-color: $sta-menu-primary !important;
   color: $sta-menu-text !important;
   z-index: 1032;  // I18n dropdown over mobile expanded menu.
+  font-weight:bold;
+
 }
 
 .dropdown-item {
   background-color: $sta-menu-primary !important;
   color: $sta-menu-text; /*REMOVE IMPORTANT TO HAVE TEXT CHANGE COLOR WHEN HOVER OVER IT */
+  &:hover {
+        font-weight: bold !important;
+        color: $sta-menu-text !important;
+      }
 }
+/*
+
+$sta-menu-text-active
+*/
