@@ -51,8 +51,10 @@
         {{ range site.Menus.main }}
 
         {{ if .HasChildren }}
-        <li class="nav-item dropdown">
-          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+        <li class="nav-item dropdown" style="border:1px solid blue">
+          <a class="nav-link dropdown-toggle" aria-haspopup="true"
+          href="{{ .URL | relLangURL }}"{{ if $.IsHome }} data-target="{{ .URL }}"{{ end }}
+          >
             {{- .Pre -}}<span>{{ .Name | safeHTML }}</span>{{- .Post -}}
             <span class="caret"></span>
           </a>
