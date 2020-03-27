@@ -5,18 +5,31 @@
 
 
 [[main]]
+  name = "Practicing the Presence"  # Title of the link.
+  url = "spiritualdirection/"  # Widget Page folder name.
+  weight = 10  # Position of the link in the navigation bar.
+  identifier = "SD"
+
+[[main]]
   name = "Spiritual Direction"  # Title of the link.
   url = "spiritualdirection/"  # Widget Page folder name.
-  weight = 1  # Position of the link in the navigation bar.
+  weight = 11  # Position of the link in the navigation bar.
+  parent = "SD"
+
+[[main]]
+  name = "Pricing and Payments"  # Title of the link.
+  url = "spiritualdirection#pricing"  # Widget Page folder name.
+  weight = 12  # Position of the link in the navigation bar.
+  parent = "SD"
 
 
 [[main]]
   name = "About Brice"  # Title of the link.
   url = "aboutbrice/"  # Widget Page folder name.
-  weight = 2  # Position of the link in the navigation bar.
+  weight = 20  # Position of the link in the navigation bar.
 
 [[main]]
   name = "Contact"  # Title of the link.
   url = "contact/"  # Widget Page folder name.
-  weight = 3  # Position of the link in the navigation bar.
+  weight = 30  # Position of the link in the navigation bar.
 
