@@ -12,7 +12,7 @@
 
 [[main]]
   name = "Spiritual Direction"  # Title of the link.
-  url = "spiritualdirection/"  # Widget Page folder name.
+  url = "spiritualdirection#what"  # Widget Page folder name.
   weight = 11  # Position of the link in the navigation bar.
   parent = "SD"
 
