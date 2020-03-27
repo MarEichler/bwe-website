@@ -198,5 +198,5 @@ ul.nav-icons li.nav-item a.nav-link {
 
 .dropdown-item {
   background-color: $sta-menu-primary !important;
-  color: $sta-menu-text !important;
+  color: $sta-menu-text; /*REMOVE IMPORTANT TO HAVE TEXT CHANGE COLOR WHEN HOVER OVER IT */
 }
