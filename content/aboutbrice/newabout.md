@@ -80,17 +80,17 @@ p.desc {
       <ul>
         <li>
         <p class="title">
-        <a href="/about/current-roles"> Description of Current Roles </a>
+        <a href="/bio/current-roles"> Description of Current Roles </a>
         </p>
         </li>
         <li> 
         <p class="title">
-        <a href="/about/education"> Education </a>
+        <a href="/bio/education"> Education </a>
         </p>
         </li>
         <li>
         <p class="title">
-        <a href="/about/past-experience">  Past Experience </a>
+        <a href="/bio/past-experience">  Past Experience </a>
         </p>
         </li>
       </ul>
