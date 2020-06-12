@@ -51,9 +51,11 @@ p.year {
 <li> Serve as a community pastor by developing and maintaining relationships with Richfield schools, police, fire department and city hall. </li>
 </ul>
 
-<p class="title"> Police and Fire Chaplain </p>
+<p class="title"> Richfield City Chaplain </p>
 <p class="org"> City Richfield, Minnesota </p> 
-<p class="year"> 2003 to Present </p> 
+<p class="year"> 2003 to Present </p>  
+Show up pointing to the presence of God to first responders and citizens of Richfield and support first responders in critical incidents.
+
 
 <p class="title"> Camp Director </p>
 <p class="org"> <a href="https://meagetaway.com/"> MEA Getaway </a> </p> 

@@ -33,7 +33,7 @@ subtitle=""
       </li>
       <li>
         <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-        <span id="person-address">I'm located in Richfield, MN. <br> Spiritual direction appointments can take place at my office or another location Twin Cities metro-area that works better for you.</span>
+        <span id="person-address">I'm located in Richfield, MN. <br> Spiritual direction appointments can take place at my office or at another location within the Twin Cities metro-area that works better for you.</span>
       </li>
 </ul>
 </div>

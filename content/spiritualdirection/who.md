@@ -20,5 +20,5 @@ style="
       text-align:left;
       ">
 <h2> Who is a good prospect for spiritual direction? </h2>
-Any one who is interested in growing their spirituality!  Spiritual direction is about where you are right now and practicing the presence in the current moment. 
+Anyone who is interested in growing their spirituality!  Spiritual direction is about where you are right now and practicing the presence in the current moment. 
 </div>

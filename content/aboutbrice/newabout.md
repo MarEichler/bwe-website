@@ -61,7 +61,7 @@ p.desc {
         <p class="year"> Since 1994 </p>
         </li>
         <li>
-        <p class="title">Police and Fire Chaplain</p>
+        <p class="title">Richfield City Chaplain</p>
         <p class="org">City of Richfield, MN</p>
         <p class="year"> Since 2003 </p>
         </li>
@@ -100,10 +100,11 @@ p.desc {
     <h3>Other Community Involvement</h3>
       <ul>
         <li>
-        <p class="title"> First Responders for First Responders Grant</p>
-        <p class="org">Grant Organization</p>
-        <p class="year"> Year </p>
-        <p class="desc"> Grant to work with families of firefighters and police officers in Richfield, MN. 
+        <p class="title"> <a href = "http://mpls-synod.org/for-congregations/ministry-imagination-grant/"
+        target = "_blank" >Ministry Imagination Grant</a></p>
+        <p class="org">Minneapolis Area Synod</p>
+        <p class="year"> 2019 </p>
+        <p class="desc"> First Responders for First Reponsders: recieved grant to work with families of firefighters and police officers in Richfield, MN. 
         </p> 
         </li>
          <li>

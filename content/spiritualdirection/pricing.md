@@ -19,7 +19,7 @@ Initial visit is a free consultation.  <br>
 single session: $50  <br>
 6-session pack: $250  <br>
 12-session pack: $500  <br><br> 
-Payments can be made in cash, check (made out to Brice Eichlersmith), or Venmo.  
+Payments can be made in cash, check (made out to Brice Eichlersmith), or Venmo (&#64;Brice-Eichlersmith).  
 </div> 
 <br>
 <br>
