@@ -10,34 +10,47 @@ title = ""
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "1"
   
-# style="border:1px solid blue;"
+[design.background]
+  
+  # Background image.
+  image = "Leaf.jpg"  # Name of image in `static/img/`.
+  image_darken = 0  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
+  image_position = "center"  # Options include `left`, `center` (default), or `right`.
+  image_parallax = false  # Use a fun parallax-like fixed background effect? true/false
+
+  # Text color (true=light or false=dark).
+  text_color_light = true
 +++
 
-<br><br><br> 
+<br><br><br>
+
 
 <div class="row featurette">
-  <div class="col-12 col-sm-5" >
 <!-- left button --> 
-<a href="spiritualdirection/"  class="hero-cta-alt myebtn" style="width:100%;"> 
+  <div class="col-12 col-sm-5">
+<a href="spiritualdirection/"  class="homebtn" style="width:100%;"> 
 <b> Practicing the Presence </b> <br>
   Spiritual Direction </a>
-<!-- end left button --> 
   </div>
+<!-- end left button --> 
 
   <div class="col-12 col-sm-2">
 <br> 
   </div>
- 
-  <div class="col-12 col-sm-5" >
+
   <!-- right button --> 
-<a href="aboutbrice/"  class="hero-cta-alt myebtn" style="width:100%;"> 
+  <div class="col-12 col-sm-5" >
+<a href="aboutbrice/"  class="homebtn" style="width:100%;"> 
 <b> Brice Eichlersmith </b> <br>
 About
-</a> <!-- end right button --> 
+</a>
   </div>
+ <!-- end right button --> 
+
 </div>
 
-<br><br><br>
+<br><br><br><br><br>
 
 
 
