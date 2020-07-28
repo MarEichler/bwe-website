@@ -38,7 +38,7 @@
     {{ $subtitle  | truncate 135 }}
 
     {{/* page meta-data shows date/lastmod  */}}
-    {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
+    {{ partial "page_metadata2" (dict "page" $item "is_list" 1) }}
 
   
     {{ with $item.Params.audio_link}}
