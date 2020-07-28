@@ -4,6 +4,7 @@ subtitle: ''
 summary: 
 audio_link: '20200619-Beloved-Richfield-Folks.m4a'
 date: "2020-06-19T00:00:00Z"
+lastmod: ''
 #"2020-03-27T00:00:00Z"
 featured: false
 draft: false
