@@ -23,7 +23,7 @@
 
 {{$date := $item.Params.date}}
 
-
+{{$date_record := $item.Params.date_record}}
 
 
 
@@ -37,8 +37,15 @@
     <div class="card-subtitle my-0 article-metadata">
     {{ $subtitle  | truncate 135 }}
 
-    {{/* page meta-data shows date/lastmod  */}}
-    {{ partial "page_metadata2" (dict "page" $item "is_list" 1) }}
+
+    {{/* {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}  */}}
+    
+
+	<div class="article-metadata">
+	  <span class="article-date">
+	    {{ $date := $item.Date.Format site.Params.date_format }}
+        {{ $date }}
+	</div>
 
   
     {{ with $item.Params.audio_link}}
