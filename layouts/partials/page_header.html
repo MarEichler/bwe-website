@@ -60,16 +60,17 @@
   <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
   {{end}}
 
+  {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
 
-   {{ with $page.Params.audio_link}}
+{{ with $page.Params.audio_link}}
    <p>
-    <audio controls>
-       <source src = "{{ . }}" type = "audio/mpeg">
-       Your browser does not support the audio element.
-       </audio>
+    <audio controls preload="none" style="width:100%;">
+       <source src="{{ . }}" type="audio/mp4" />
+       <source src="{{ . }}" type = "audio/ogg" />
+       Your browser does not support HTML5 audio.
+     </audio>
   </p> {{end}}
 
-  {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
   {{ partial "page_links_div.html" $page }}
 </div>
 
@@ -96,7 +97,11 @@
   <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
   {{end}}
 
-  {{ with $page.Params.audio_link}}
+
+  {{ if not .IsNode }}
+    {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+
+{{ with $page.Params.audio_link}}
    <p>
     <audio controls preload="none" style="width:100%;">
        <source src="{{ . }}" type="audio/mp4" />
@@ -104,9 +109,7 @@
        Your browser does not support HTML5 audio.
      </audio>
   </p> {{end}}
-
-  {{ if not .IsNode }}
-    {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+   
     {{ partial "page_links_div.html" $page }}
   {{end}}
 </div>
