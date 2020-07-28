@@ -34,18 +34,12 @@
       <a href="{{$link}}" {{ $target | safeHTMLAttr }}>{{ $item.Title }}</a>
     </h4>
 
-    {{ with $subtitle }}
     <div class="card-subtitle my-0 article-metadata">
-      {{ . | truncate 135 }}
-    {{ end }}
+    {{ $subtitle  | truncate 135 }}
 
     {{/* page meta-data shows date/lastmod  */}}
-    <div class="stream-meta article-metadata">
-        {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
-    </div>
-
-     
-    <p>   
+    {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
+  
        {{ with $item.Params.audio_link}}
     <audio controls preload="none" style="width:100%;">
        <source src="{{ . }}" type="audio/mp4" />
@@ -53,12 +47,12 @@
        Your browser does not support HTML5 audio.
      </audio>
      {{end}}
-    </p>
+
 
     </div>
-
-
 
   </div>
  
 </div>
+
+
