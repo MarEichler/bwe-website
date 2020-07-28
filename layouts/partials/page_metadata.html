@@ -12,6 +12,13 @@
   </div>
   {{ end }}
   {{ end }}
+   
+
+   {{ if eq $page.Params.show_org_date true }} 
+   {{ $date_org := $page.Date.Format site.Params.date_format }}
+   {{ $date_org }} <br>
+   {{ end }} 
+
 
   {{ if not (in (slice "talk" "page") $page.Type) }}
   <span class="article-date">
