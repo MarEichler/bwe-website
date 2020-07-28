@@ -59,6 +59,15 @@
   <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
   {{end}}
 
+  {{ with $page.Params.audio_link}}
+  <p> 
+      <audio controls>
+       <source src = "{{ . }}" type = "audio/mpeg">
+       Your browser does not support the audio element.
+       </audio>
+   </p>
+   {{end}}
+
   {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
   {{ partial "page_links_div.html" $page }}
 </div>
