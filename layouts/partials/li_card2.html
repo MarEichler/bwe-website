@@ -23,7 +23,7 @@
 
 {{$date := $item.Params.date}}
 
-
+{{$audio_length := $item.Params.audio_length}}
 
 
 
@@ -37,9 +37,13 @@
     <div class="card-subtitle my-0 article-metadata">
     {{ $subtitle  | truncate 135 }}
 
+    {{if $audio_length}}
+    Audio Length: {{ $audio_length }} 
+    {{end}}
+
     {{/* page meta-data shows date/lastmod  */}}
     {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
-     
+
 
     {{ with $item.Params.audio_link}}
     <audio controls preload="none" style="width:100%;">
