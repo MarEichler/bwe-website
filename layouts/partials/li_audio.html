@@ -20,16 +20,6 @@
   {{ $summary = $item.Subtitle }}
 {{ end }}
 
-{{ $audio_link := "" }}
-{{ if $item.Params.audio_link }}
-  {{ $audio_link = $item.Params.audio_link | markdownify | emojify }}
-{{ else if .Params.abstract }}
-  {{ $audio_link = .Params.abstract | markdownify | emojify }}
-{{ else if $item.Truncated }}
-  {{ $audio_link = $item.Audio_link }}
-{{ end }}
-
-{{$datech := $item.Params.datech}}
 
 {{$date := $item.Params.date}}
 
@@ -49,18 +39,21 @@
       {{ . | truncate 135 }}
     {{ end }}
 
-    <p>
-    {{with $date}}
-    {{ .Format ("January 1, 2006")}}
-    {{end}}
-    </p>
+    {{/* page meta-data shows date/lastmod  */}}
+    <div class="stream-meta article-metadata">
+        {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
+    </div>
 
      
-    <p></p>
-       <audio controls>
-       <source src = "{{$audio_link}}" type = "audio/mpeg">
-       Your browser does not support the audio element.
-       </audio>
+    <p>   
+       {{ with $item.Params.audio_link}}
+    <audio controls preload="none" style="width:100%;">
+       <source src="{{ . }}" type="audio/mp4" />
+       <source src="{{ . }}" type = "audio/ogg" />
+       Your browser does not support HTML5 audio.
+     </audio>
+     {{end}}
+    </p>
 
     </div>
 
