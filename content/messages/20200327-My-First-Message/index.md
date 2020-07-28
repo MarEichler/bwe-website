@@ -3,8 +3,9 @@ title: 'My First Message'
 subtitle: ''
 summary: 
 audio_link: '20200327-My-First-Message.m4a'
+show_org_date: true
 date: "2020-03-27T00:00:00Z"
-#"2020-03-27T00:00:00Z"
+lastmod: "2020-03-27T00:00:00Z"
 featured: false
 draft: false
 

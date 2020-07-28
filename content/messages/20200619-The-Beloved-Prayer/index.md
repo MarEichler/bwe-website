@@ -5,7 +5,8 @@ summary:
 audio_link: '20200619-The-Beloved-Prayer.m4a'
 audio_length: 
 date: "2020-06-19T00:00:00Z"
-#"2020-03-27T00:00:00Z"
+show_org_date: true
+lastmod: "2020-03-27T00:00:00Z"
 featured: false
 draft: false
 
