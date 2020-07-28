@@ -40,7 +40,7 @@
     {{/* page meta-data shows date/lastmod  */}}
     {{ partial "page_metadata" (dict "page" $item "is_list" 1) }}
   
-       {{ with $item.Params.audio_link}}
+    {{ with $item.Params.audio_link}}
     <audio controls preload="none" style="width:100%;">
        <source src="{{ . }}" type="audio/mp4" />
        <source src="{{ . }}" type = "audio/ogg" />
