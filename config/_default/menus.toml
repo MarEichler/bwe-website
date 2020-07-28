@@ -17,11 +17,16 @@
   parent = "SD"
 
 [[main]]
-  name = "Pricing and Payments"  # Title of the link.
-  url = "spiritualdirection#pricing"  # Widget Page folder name.
+  name = "Messages"  # Title of the link.
+  url = "messages/"  # Widget Page folder name.
   weight = 12  # Position of the link in the navigation bar.
   parent = "SD"
 
+[[main]]
+  name = "Pricing and Payments"  # Title of the link.
+  url = "spiritualdirection#pricing"  # Widget Page folder name.
+  weight = 13  # Position of the link in the navigation bar.
+  parent = "SD"
 
 [[main]]
   name = "About Brice"  # Title of the link.
