@@ -55,18 +55,19 @@
 <div class="article-container pt-3">
   <h1>{{ $title }}</h1>
 
+
   {{ with $page.Params.subtitle }}
   <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
   {{end}}
 
-  {{ with $page.Params.audio_link}}
-  <p> 
-      <audio controls>
+
+   {{ with $page.Params.audio_link}}
+   <p>
+    <audio controls>
        <source src = "{{ . }}" type = "audio/mpeg">
        Your browser does not support the audio element.
        </audio>
-   </p>
-   {{end}}
+  </p> {{end}}
 
   {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
   {{ partial "page_links_div.html" $page }}
@@ -94,6 +95,14 @@
   {{ with $page.Params.subtitle }}
   <p class="page-subtitle">{{ . | markdownify | emojify }}</p>
   {{end}}
+
+  {{ with $page.Params.audio_link}}
+   <p>
+    <audio controls>
+       <source src = "{{ . }}" type = "audio/mpeg">
+       Your browser does not support the audio element.
+       </audio>
+  </p> {{end}}
 
   {{ if not .IsNode }}
     {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
