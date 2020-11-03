@@ -1,5 +1,5 @@
 ---
-title: 'The Beloved Prayer'
+title: 'The Beloved Prayer ★'
 subtitle: ''
 summary: 
 audio_link: '20200619-The-Beloved-Prayer.m4a'
@@ -23,3 +23,4 @@ image:
 
 ---
 
+The Beloved Pray by Henri Nouwen.  This is a guided meditation that reminds us that because Jesus is beloved we are also beloved as  in a community.  
