@@ -62,14 +62,35 @@
 
   {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
 
+
+  {{/* audio/video */}}
+
 {{ with $page.Params.audio_link}}
-   <p>
+  <p>
     <audio controls preload="none" style="width:100%;">
        <source src="{{ . }}" type="audio/mp4" />
        <source src="{{ . }}" type = "audio/ogg" />
        Your browser does not support HTML5 audio.
      </audio>
   </p> {{end}}
+
+
+
+    {{ with $page.Params.vid_link}}
+    <p>
+    <iframe 
+    src="{{ . }}" 
+    id = "myIframe"
+    width = 100% 
+    onload = "this.style.height = (document.getElementById('myIframe').scrollWidth )*0.5625 + 'px';" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>	
+    </iframe>
+  </p>
+  {{end}}
+
+
 
   {{ partial "page_links_div.html" $page }}
 </div>
@@ -109,7 +130,44 @@
        Your browser does not support HTML5 audio.
      </audio>
   </p> {{end}}
-   
+
+
+
+  {{ with $page.Params.vid_link}}
+    <p>
+    <iframe 
+    src="{{ . }}" 
+    id = "myIframe"
+    width = 100% 
+    onload = "this.style.height = (document.getElementById('myIframe').scrollWidth )*0.5625 + 'px';" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>	
+    </iframe>
+  </p>
+  {{end}}
+
+
+{{/* 
+
+TESTING!!!! 
+onload = "this.style.height = (document.getElementById('myIframe').scrollWidth )*0.5625 + 'px';" 
+onload = "resizeIframe(this)"
+obj.style.height = w + 'px'; 
+<script>
+  	function resizeIframe(obj) {
+  		var o = document.getElementById('myIframe').scrollWidth; 
+  		var w = document.documentElement.scrollWidth; 
+  		document.getElementById("demo").innerHTML = "org: " + o  + "<br>test:" + w; 
+  	}
+</script>
+<p id = "demo"><p>
+
+*/}}
+
+ 
+
+
     {{ partial "page_links_div.html" $page }}
   {{end}}
 </div>
