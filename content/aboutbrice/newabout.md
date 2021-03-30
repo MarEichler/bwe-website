@@ -125,7 +125,7 @@ p.desc {
         <p class="org">City of Richfield, MN</p>
         <p class="year"> August 2019 </p>
         <p class="desc"> 
-          <a href="https://www.richfieldmn.gov/Home/Components/News/News/3618/" target="_blank">
+          <a href="2019_Outstanding_Citizen_Article.pdf" target="_blank">
           <i class="far fa-file-alt"></i>&thinsp;Richfield News Article </a> 
         </p>
         </li>
